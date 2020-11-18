@@ -12,4 +12,5 @@ int main()
     }
     dif = pow(sq_sum, 2) - sum_sq;
     cout << "Output:\n" << dif;
+    system ("pause");
 }
