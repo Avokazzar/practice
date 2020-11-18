@@ -3,21 +3,26 @@
 #include <vector>
 #include <algorithm>
 
+using std::cout;
+using std::cin;
+using std::vector;
+using std::reverse;
+
 int main()
 {
     long long n;
-    std::cout << "Input N:\n";
-    std::cin >> n;
-    std::vector<long long> rem;
+    cout << "Input N:\n";
+    cin >> n;
+    vector<long long> rem;
     int end;
     do {
         end = n % 2;
         n /= 2;
         rem.push_back(end);
     } while (n >= 1);
-    std::cout << "Output:\n";
-    std::reverse(rem.begin(), rem.end());
+    cout << "Output:\n";
+    reverse(rem.begin(), rem.end());
     for (int i = 0; i < rem.size(); i++) {
-        std::cout << rem[i];
+        cout << rem[i];
     }
 }
