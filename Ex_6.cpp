@@ -35,4 +35,5 @@ int main()
     getline(cin, s);
     
     cout << "Output:\n" << IsPalindrom(s);
+    system ("pause");
 }
