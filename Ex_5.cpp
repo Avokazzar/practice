@@ -21,4 +21,5 @@ int main()
     cout << "Input:\n";
     cin >> num;
     cout << "Output:\n" << Factorial(num);
+    system ("pause");
 }
