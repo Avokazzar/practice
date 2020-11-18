@@ -1,11 +1,15 @@
 #include <iostream>
 #include <string>
 
+using std::string;
+using std::cout;
+using std::cin;
+
 int main()
 {
-    std::string s;
-    std::cout << "Input:\n";
-    getline(std::cin, s);
+    string s;
+    cout << "Input:\n";
+    getline(cin, s);
     int count = 0, temp;
     for (int i = 0; i <= s.length(); i++) {
         if (s[i] == 'f') {
@@ -13,14 +17,14 @@ int main()
             temp = i;
         }
     }
-    std::cout << "Output:\n";
+    cout << "Output:\n";
     if (count == 1) {
-        std::cout << "-1\n";
+        cout << "-1\n";
     }
     else if (count == 0) {
-        std::cout << "-2\n";
+        cout << "-2\n";
     }
     else {
-        std::cout << temp;
+        cout << temp;
     }
 }
