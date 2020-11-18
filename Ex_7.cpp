@@ -16,4 +16,5 @@ int main()
     } while (f <= 4000000);
 
     cout << "Output:\n" << sum;
+    system ("pause");
 }
