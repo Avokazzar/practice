@@ -1,5 +1,7 @@
 #include <iostream>
 
+using std::cout;
+
 int main()
 {
 	int N = 100;
@@ -24,5 +26,5 @@ int main()
 	for (int i = 0; i < 5000; i++) {
 		sum += m[i];
 	}
-	std::cout << "Output:\n" << sum;
+	cout << "Output:\n" << sum;
 }
