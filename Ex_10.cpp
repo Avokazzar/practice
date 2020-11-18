@@ -27,4 +27,5 @@ int main()
 		sum += m[i];
 	}
 	cout << "Output:\n" << sum;
+	system ("pause");
 }
