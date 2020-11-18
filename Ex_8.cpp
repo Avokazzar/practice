@@ -19,4 +19,5 @@ int main()
             }
         }
     }
+    system ("pause");
 }
