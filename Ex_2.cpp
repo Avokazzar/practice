@@ -27,4 +27,5 @@ int main()
     else {
         cout << temp;
     }
+    system("pause");
 }
