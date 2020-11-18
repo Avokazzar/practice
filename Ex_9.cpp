@@ -1,6 +1,8 @@
 #include <iostream>
 #include <math.h>
 
+using std::cout;
+
 int main()
 {
     int sum_sq = 0, sq_sum = 0, dif;
@@ -9,5 +11,5 @@ int main()
         sq_sum += i;
     }
     dif = pow(sq_sum, 2) - sum_sq;
-    std::cout << "Output:\n" << dif;
+    cout << "Output:\n" << dif;
 }
