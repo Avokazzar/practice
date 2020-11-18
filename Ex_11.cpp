@@ -1,5 +1,7 @@
 #include <iostream>
-using namespace std;
+
+using std::cout;
+
 int main() {
 setlocale(LC_ALL, "Russian");
 const unsigned short n = 20;
