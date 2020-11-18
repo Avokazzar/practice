@@ -1,5 +1,8 @@
 #include <iostream>
 
+using std::cout;
+using std::cin;
+
 int  Factorial(int num)
 {
     if (num <= 0) {
@@ -15,7 +18,7 @@ int  Factorial(int num)
 int main()
 {
     int num;
-    std::cout << "Input:\n";
-    std::cin >> num;
-    std::cout << "Output:\n" << Factorial(num);
+    cout << "Input:\n";
+    cin >> num;
+    cout << "Output:\n" << Factorial(num);
 }
