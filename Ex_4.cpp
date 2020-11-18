@@ -25,4 +25,5 @@ int main()
     for (int i = 0; i < rem.size(); i++) {
         cout << rem[i];
     }
+    system ("pause");
 }
