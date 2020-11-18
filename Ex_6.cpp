@@ -3,7 +3,12 @@
 #include <cctype>
 #include <algorithm>
 
-int IsPalindrom(std::string s)
+using std::string;
+using std::reverse;
+using std::cout;
+using std::cin;
+
+int IsPalindrom(string s)
 {
     for (int i = 0; i <= s.length(); i++) {
         if (s[i] == ' ') {
@@ -11,8 +16,8 @@ int IsPalindrom(std::string s)
         }
         s[i] = tolower(s[i]);
     }
-    std::string s_new = s;
-    std::reverse(s_new.begin(), s_new.end());
+    string s_new = s;
+    reverse(s_new.begin(), s_new.end());
     bool res;
     if (s == s_new) {
         res = true;
@@ -25,9 +30,9 @@ int IsPalindrom(std::string s)
 
 int main()
 {
-    std::string s;
-    std::cout << "Input:\n";
-    getline(std::cin, s);
+    string s;
+    cout << "Input:\n";
+    getline(cin, s);
     
-    std::cout << "Output:\n" << IsPalindrom(s);
+    cout << "Output:\n" << IsPalindrom(s);
 }
