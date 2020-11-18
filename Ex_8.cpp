@@ -1,6 +1,8 @@
 #include <iostream>
 #include <math.h>
 
+using std::cout;
+
 int main()
 {
     int a, b, c, step = 100;
@@ -12,7 +14,7 @@ int main()
                 c = pow(m, 2) + pow(n, 2);
 
                 if (a + b + c == 1000) {
-                    std::cout << "Output:\n" << a * b * c;
+                    cout << "Output:\n" << a * b * c;
                 }
             }
         }
