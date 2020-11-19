@@ -4,7 +4,6 @@ using std::cout;
 using std::endl;
 
 int main() {
-setlocale(LC_ALL, "Russian");
 const unsigned short n = 20;
 unsigned long long m[n][n];
 for (unsigned short i = 2; i <= n; i++)
